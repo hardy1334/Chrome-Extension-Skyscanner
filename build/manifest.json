@@ -1,0 +1,12 @@
+{
+    "name": "Flights Checker",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "128": "icon_128.png"
+    },
+    "content_security_policy": "script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='; object-src 'self'"
+}
